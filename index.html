@@ -12,5 +12,28 @@
 <body>
   <div class="container">
     <h1>Triangle Tracker</h1>
-    
-    <p>
+
+    <p></p>
+
+    <form id="triangleTracker">
+      <div class="form-group" id="line1-input">
+        <label class="control-label" for="line1">Line 1</label>
+        <input id="line1" type="text" class="form-control">
+      </div>
+      <div class="form-group" id="line2-input">
+        <label class="control-label" for="line2">Line 2</label>
+        <input id="line2" type="text" class="form-control">
+      </div>
+      <div class="form-group" id="line3-input">
+        <label class="control-label" for="line3">Line 3</label>
+        <input id="line3" type="text" class="form-control">
+      </div>
+
+      <button type="submit" class="btn">Find your match!</button>
+    </form>
+
+    <div id="results">
+      <p>The lines you have entered would <span id="triangle"></span> triangle.</p>
+    </div>
+  </div>
+</body>
